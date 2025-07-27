@@ -1,0 +1,16 @@
+# Root .gitignore
+
+# Ignore root node_modules (if any)
+node_modules/
+
+# Ignore frontend dependencies
+client/node_modules/
+client/build/
+
+# Ignore backend dependencies
+server/node_modules/
+
+# Common ignores
+.env
+.DS_Store
+*.log
